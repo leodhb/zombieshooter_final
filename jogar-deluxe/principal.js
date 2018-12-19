@@ -192,7 +192,7 @@ var jogo = {
 		game.physics.startSystem(Phaser.Physics.ARCADE);
 		musica = game.add.audio('musica');
 		musica.loop = true;
-		musica.volume = 0.6;
+		musica.volume = 0.5;
 		musica.play();
 
 		fundoJogo = game.add.tileSprite(0, 0, 640, 480, 'fundo');
