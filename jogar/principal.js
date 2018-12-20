@@ -112,8 +112,8 @@ var menu = {
 		create: function(){
 			delimitador = game.time.now + 2000;
 			botaoStart = game.input.keyboard.addKey(Phaser.Keyboard.ENTER);
-			botao1p    = game.input.keyboard.addKey(Phaser.Keyboard.NUMPAD_1);
-			botao2p    = game.input.keyboard.addKey(Phaser.Keyboard.NUMPAD_2);
+			botao1p    = game.input.keyboard.addKey(Phaser.Keyboard.ONE);
+			botao2p    = game.input.keyboard.addKey(Phaser.Keyboard.TWO);
 			
 			startSong = game.add.audio('start');
 			startSong.allowMultiple = false;
